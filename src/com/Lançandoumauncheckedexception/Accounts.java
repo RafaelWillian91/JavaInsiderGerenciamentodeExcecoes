@@ -1,11 +1,11 @@
 package com.Lançandoumauncheckedexception;
 
-public class accounts {
+public class Accounts {
 
     private final String number;
     private double balance;
 
-    public accounts(String number){
+    public Accounts(String number){
         this.number = number;
     }
 
@@ -26,7 +26,7 @@ public class accounts {
 
     @Override
     public String toString() {
-        return "accounts{" +
+        return "Accounts{" +
                 "number='" + number + '\'' +
                 ", balance=" + balance +
                 '}';
