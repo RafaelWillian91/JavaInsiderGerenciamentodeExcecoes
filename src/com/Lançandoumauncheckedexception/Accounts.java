@@ -1,5 +1,7 @@
 package com.Lançandoumauncheckedexception;
 
+import com.Lançandoumauncheckedexception.exceptions.InsuficientFundsException;
+
 public class Accounts {
 
     private final String number;
@@ -13,12 +15,12 @@ public class Accounts {
         this.balance = amount;
     }
 
-    public void withdraw (double amount) throws Exception{
+    public void withdraw (double amount) throws InsuficientFundsException{
         if (amount < 0){
             throw new RuntimeException("Amount cannot be negative!");
         }
         if (balance - amount < 0){
-            throw new Exception("insufficient funds");
+            throw new InsuficientFundsException(balance);
         }
     }
 

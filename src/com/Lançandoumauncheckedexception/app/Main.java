@@ -10,7 +10,7 @@ public class Main {
         ac3.deposit(300);
         System.out.println(ac3);
 
-        ac3.withdraw(-500);
+        ac3.withdraw(500);
 
         System.out.println("Sucess");
 
