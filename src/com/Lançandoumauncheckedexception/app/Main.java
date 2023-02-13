@@ -12,12 +12,16 @@ public class Main {
         System.out.println(ac3);
 
         try {
-            ac3.withdraw(500);
-        } catch (InsuficientFundsException e) {
-            System.out.println(e);
+            ac3.withdraw(-500);
+
+        } catch (InsuficientFundsException  | IllegalArgumentException e) {
+            System.out.println("Erro: " + e.getMessage());
+            System.out.println("Stacktrace: ");
+            e.printStackTrace();
+
         }
 
-        System.out.println("Sucess");
+
 
     }
 

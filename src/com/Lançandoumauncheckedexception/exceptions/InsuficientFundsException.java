@@ -14,4 +14,6 @@ public class InsuficientFundsException extends Exception{
     public double getCurrentBalance() {
         return currentBalance;
     }
+
+    public void teste(){}
 }
