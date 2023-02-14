@@ -1,6 +1,6 @@
-package com.excceptions.app;
+package com.excceptions.classExceptions.app;
 
-import com.excceptions.exceptions.InsuficientFundsException;
+import com.excceptions.classExceptions.InsuficientFundsException;
 
 public class Main {
 

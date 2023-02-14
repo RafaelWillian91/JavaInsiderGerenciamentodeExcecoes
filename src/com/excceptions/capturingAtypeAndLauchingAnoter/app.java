@@ -1,7 +1,7 @@
 package com.excceptions.capturingAtypeAndLauchingAnoter;
 
-import com.excceptions.app.Accounts;
-import com.excceptions.exceptions.ServiceException;
+import com.excceptions.classExceptions.app.Accounts;
+import com.excceptions.classExceptions.ServiceException;
 
 public class app {
 
