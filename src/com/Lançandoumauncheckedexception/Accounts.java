@@ -22,6 +22,7 @@ public class Accounts {
         if (balance - amount < 0){
             throw new InsuficientFundsException(balance);
         }
+        balance -= amount;
     }
 
     @Override
@@ -30,5 +31,9 @@ public class Accounts {
                 "number='" + number + '\'' +
                 ", balance=" + balance +
                 '}';
+    }
+
+    public double getBalance() {
+        return balance;
     }
 }
