@@ -15,7 +15,7 @@ public class serviceAccount {
             a1.withdraw(amount);
             return a1;
         } catch (InsuficientFundsException e) {
-            throw new ServiceException(e.getMessage());
+            throw new ServiceException("Saldo Insuficiente ", e);
         }
 
     }
