@@ -1,4 +1,4 @@
-package com.Lançandoumauncheckedexception.exceptions;
+package com.excceptions.exercise.vehicle;
 
 public class SpeedLimitExercise extends RuntimeException{
 

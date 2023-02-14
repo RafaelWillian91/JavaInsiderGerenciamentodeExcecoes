@@ -1,8 +1,5 @@
-package com.Lançandoumauncheckedexception.exercise.somaDeNumeros;
+package com.excceptions.exercise.somaDeNumeros;
 
-import com.Lançandoumauncheckedexception.exceptions.ImpossibleConversionException;
-
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Soma {

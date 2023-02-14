@@ -1,6 +1,6 @@
-package com.Lançandoumauncheckedexception;
+package com.excceptions.app;
 
-import com.Lançandoumauncheckedexception.exceptions.InsuficientFundsException;
+import com.excceptions.exceptions.InsuficientFundsException;
 
 public class Accounts {
 

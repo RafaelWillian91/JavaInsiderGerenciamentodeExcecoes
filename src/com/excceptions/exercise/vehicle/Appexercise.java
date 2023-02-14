@@ -1,4 +1,4 @@
-package com.Lançandoumauncheckedexception.exercise;
+package com.excceptions.exercise.vehicle;
 
 public class Appexercise {
 

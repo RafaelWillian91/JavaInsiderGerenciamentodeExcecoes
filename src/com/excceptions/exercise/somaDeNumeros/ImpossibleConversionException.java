@@ -1,4 +1,4 @@
-package com.Lançandoumauncheckedexception.exceptions;
+package com.excceptions.exercise.somaDeNumeros;
 
 public class ImpossibleConversionException extends RuntimeException{
 

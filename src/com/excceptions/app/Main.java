@@ -1,7 +1,6 @@
-package com.Lançandoumauncheckedexception.app;
+package com.excceptions.app;
 
-import com.Lançandoumauncheckedexception.Accounts;
-import com.Lançandoumauncheckedexception.exceptions.InsuficientFundsException;
+import com.excceptions.exceptions.InsuficientFundsException;
 
 public class Main {
 

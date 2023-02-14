@@ -1,4 +1,4 @@
-package com.Lançandoumauncheckedexception.exceptions;
+package com.excceptions.exceptions;
 
 public class ServiceException extends Exception{
 

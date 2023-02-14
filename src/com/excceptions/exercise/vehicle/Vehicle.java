@@ -1,6 +1,4 @@
-package com.Lançandoumauncheckedexception.exercise;
-
-import com.Lançandoumauncheckedexception.exceptions.SpeedLimitExercise;
+package com.excceptions.exercise.vehicle;
 
 public class Vehicle {
 

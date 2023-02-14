@@ -1,8 +1,8 @@
-package com.Lançandoumauncheckedexception.capturingAtypeAndLauchingAnoter;
+package com.excceptions.capturingAtypeAndLauchingAnoter;
 
-import com.Lançandoumauncheckedexception.Accounts;
-import com.Lançandoumauncheckedexception.exceptions.InsuficientFundsException;
-import com.Lançandoumauncheckedexception.exceptions.ServiceException;
+import com.excceptions.app.Accounts;
+import com.excceptions.exceptions.InsuficientFundsException;
+import com.excceptions.exceptions.ServiceException;
 
 
 public class serviceAccount {

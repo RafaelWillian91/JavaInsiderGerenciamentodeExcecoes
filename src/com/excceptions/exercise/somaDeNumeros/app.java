@@ -1,6 +1,4 @@
-package com.Lançandoumauncheckedexception.exercise.somaDeNumeros;
-
-import java.util.Scanner;
+package com.excceptions.exercise.somaDeNumeros;
 
 public class app {
     public static void main(String[] args) {
